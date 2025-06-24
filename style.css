@@ -1,0 +1,92 @@
+
+/* Style Green Enterprise */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5f8f6;
+  margin: 0;
+  color: #333;
+}
+
+.sidebar {
+  height: 100vh;
+  width: 220px;
+  position: fixed;
+  background: #2e7d32; /* vert foncé */
+  color: white;
+  padding-top: 20px;
+}
+
+.sidebar h4 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.sidebar a {
+  color: white;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  transition: 0.3s;
+  font-weight: 500;
+}
+
+.sidebar a:hover {
+  background-color: #388e3c;
+  text-decoration: none;
+}
+
+.content {
+  margin-left: 240px;
+  padding: 30px;
+  min-height: 100vh;
+  background-color: #f0fdf4;
+}
+
+h2 {
+  color: #2e7d32;
+  font-weight: 600;
+}
+
+.btn-success {
+  background-color: #4caf50;
+  border-color: #4caf50;
+}
+
+.btn-success:hover {
+  background-color: #43a047;
+  border-color: #43a047;
+}
+
+.btn-primary {
+  background-color: #2e7d32;
+  border-color: #2e7d32;
+}
+
+.btn-primary:hover {
+  background-color: #1b5e20;
+  border-color: #1b5e20;
+}
+
+.btn-danger {
+  background-color: #c62828;
+  border-color: #c62828;
+}
+
+.btn-danger:hover {
+  background-color: #b71c1c;
+  border-color: #b71c1c;
+}
+
+.form-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  max-width: 700px;
+  margin: auto;
+}
+
+.table thead {
+  background-color: #2e7d32;
+  color: white;
+}

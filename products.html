@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Produits - Gestion de Stock</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 -->
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+  
+</head>
+<body>
+
+   <!-- Barre latérale -->
+  <div class="sidebar">
+  <h4 class="text-center mb-4">📦 MonStock+</h4>
+    <h4 class="text-center">Menu</h4>
+    <a href="index.html">Tableau de Bord</a>
+    <a href="products.html">Produits</a>
+    <a href="stock-in.html">Entrées</a>
+    <a href="stock-out.html">Sorties</a>
+    <a href="history.html">Historique</a>
+    <a href="users.html">Utilisateurs</a>
+    <a href="profile.html">Mon Profil</a>
+    <a href="login.html">Déconnexion</a>
+  </div>
+
+  <!-- Contenu principal -->
+  <div class="content">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <h2>Liste des Produits</h2>
+      <a href="add-product.html" class="btn btn-success">+ Ajouter un produit</a>
+    </div>
+
+    <div class="table-responsive">
+      <table class="table table-bordered table-hover">
+        <thead class="table-dark">
+          <tr>
+            <th>ID</th>
+            <th>Nom</th>
+            <th>Catégorie</th>
+            <th>Quantité</th>
+            <th>Prix Unitaire</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Clé USB 32Go</td>
+            <td>Informatique</td>
+            <td>50</td>
+            <td>8 €</td>
+            <td>
+              <a href="edit-product.html" class="btn btn-sm btn-primary">Modifier</a>
+              <a href="delete-product.html" class="btn btn-sm btn-danger">Supprimer</a>
+            </td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Imprimante HP</td>
+            <td>Bureau</td>
+            <td>12</td>
+            <td>120 €</td>
+            <td>
+              <a href="edit-product.html" class="btn btn-sm btn-primary">Modifier</a>
+              <a href="delete-product.html" class="btn btn-sm btn-danger">Supprimer</a>
+            </td>
+          </tr>
+          <!-- Tu peux ajouter d'autres produits ici -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<section id="hardcoded-products" style="margin: 20px;">
+  <h2>Nos Marchandises</h2>
+  <div style="display: flex; flex-wrap: wrap; gap: 20px;">
+    <div style="border: 1px solid #ccc; padding: 10px; width: 200px;">
+      <img src="https://via.placeholder.com/150" alt="Produit 1" style="width:100%;">
+      <h3>Sac de Riz 25kg</h3>
+      <p>Riz parfumé de qualité supérieure.</p>
+      <strong>Prix: 30$</strong>
+    </div>
+    <div style="border: 1px solid #ccc; padding: 10px; width: 200px;">
+      <img src="https://via.placeholder.com/150" alt="Produit 2" style="width:100%;">
+      <h3>Huile végétale 5L</h3>
+      <p>Huile de tournesol pure.</p>
+      <strong>Prix: 15$</strong>
+    </div>
+    <div style="border: 1px solid #ccc; padding: 10px; width: 200px;">
+      <img src="https://via.placeholder.com/150" alt="Produit 3" style="width:100%;">
+      <h3>Boîte de lait en poudre</h3>
+      <p>Lait entier 400g.</p>
+      <strong>Prix: 8$</strong>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
